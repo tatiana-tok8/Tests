@@ -11,8 +11,10 @@ import java.util.List;
 
 public class task1 {
     public static void main(String[] args) {
+    	String path = args[0];
         ArrayList<Double> doubleArrayList = new ArrayList<>();
-        File file = new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\file.txt");
+        //File file = new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\file.txt");
+        File file = new File(path);
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = reader.readLine()) != null) {

@@ -9,11 +9,11 @@ import java.util.ArrayList;
 
 public class task3 {
 	  public static void main(String[] args) {
-		  Double[] newArray1 = readFromFile(new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\Cach1.txt"));
-		  Double[] newArray2 = readFromFile(new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\Cach2.txt"));
-		  Double[] newArray3 = readFromFile(new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\Cach3.txt"));
-		  Double[] newArray4 = readFromFile(new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\Cach4.txt"));
-		  Double[] newArray5 = readFromFile(new File("C:\\Users\\Tania\\eclipse-workspace\\Tests\\Cach5.txt"));
+		  Double[] newArray1 = readFromFile(new File(args[0]));
+		  Double[] newArray2 = readFromFile(new File(args[1]));
+		  Double[] newArray3 = readFromFile(new File(args[2]));
+		  Double[] newArray4 = readFromFile(new File(args[3]));
+		  Double[] newArray5 = readFromFile(new File(args[4]));
 		  for (int i = 0; i < newArray1.length; i++) 
 	        {
 			  newArray1[i]=newArray1[i]+newArray2[i]+newArray3[i]+newArray4[i]+newArray5[i];
