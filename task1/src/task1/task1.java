@@ -1,4 +1,4 @@
-package Tests;
+package task1;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/*
+C:\\Users\\Tania\\eclipse-workspace\\task1\\file.txt
+ */
 
 public class task1 {
     public static void main(String[] args) {

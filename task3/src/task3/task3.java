@@ -1,4 +1,4 @@
-package Tests;
+package task3;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,7 +6,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-
+/*
+C:\\Users\\Tania\\eclipse-workspace\\task3\\Cach1.txt
+C:\\Users\\Tania\\eclipse-workspace\\task3\\Cach2.txt
+C:\\Users\\Tania\\eclipse-workspace\\task3\\Cach3.txt
+C:\\Users\\Tania\\eclipse-workspace\\task3\\Cach4.txt
+C:\\Users\\Tania\\eclipse-workspace\\task3\\Cach5.txt
+ */
 public class task3 {
 	  public static void main(String[] args) {
 		  Double[] newArray1 = readFromFile(new File(args[0]));
